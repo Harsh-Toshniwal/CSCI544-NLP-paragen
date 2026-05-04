@@ -1,1 +1,1 @@
-You can refer the file code from this gdrive to download checkpoints: https://drive.google.com/drive/folders/1jQ1sHWawAW1re2Mo4bxGSbg_AdVHdTgB or root github repo:https://github.com/Harsh-Toshniwal/CSCI544-NLP-Coursework
+You can refer the files from this gdrive to download checkpoints: https://drive.google.com/drive/folders/1jQ1sHWawAW1re2Mo4bxGSbg_AdVHdTgB or root github repo:https://github.com/Harsh-Toshniwal/CSCI544-NLP-Coursework
