@@ -1,0 +1,21 @@
+{
+  "mode": "decoder_only",
+  "combo_index": 1,
+  "run_group": "decoder_only_lora",
+  "run_name": "001__decoder_only__model_name-flan-t5-small__batch_size-16__learning_rate-5e-05__epochs-10",
+  "device": "cuda",
+  "combo": {
+    "device": "cuda",
+    "train_file": "data/classification_splits/train.csv",
+    "val_file": "data/classification_splits/val.csv",
+    "test_file": "data/classification_splits/test.csv",
+    "num_beams": 4,
+    "max_length": 96,
+    "positive_only": true,
+    "seed": 42,
+    "model_name": "flan-t5-small",
+    "batch_size": 16,
+    "learning_rate": 5e-05,
+    "epochs": 10
+  }
+}

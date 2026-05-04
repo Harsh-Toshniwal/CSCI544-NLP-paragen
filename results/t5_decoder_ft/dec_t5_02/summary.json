@@ -1,0 +1,36 @@
+{
+  "mode": "decoder_only",
+  "combo_index": 2,
+  "run_group": "decoder_only_lora",
+  "run_name": "002__decoder_only__model_name-flan-t5-base__batch_size-8__learning_rate-5e-05__epochs-10",
+  "device": "cuda",
+  "combo": {
+    "device": "cuda",
+    "train_file": "data/classification_splits/train.csv",
+    "val_file": "data/classification_splits/val.csv",
+    "test_file": "data/classification_splits/test.csv",
+    "num_beams": 4,
+    "max_length": 96,
+    "positive_only": true,
+    "seed": 42,
+    "model_name": "flan-t5-base",
+    "batch_size": 8,
+    "learning_rate": 5e-05,
+    "epochs": 10
+  },
+  "status": "completed",
+  "artifacts": {
+    "checkpoint_dir": "/home1/tzhang44/CSCI544-NLP-Coursework-master/results/hpc_runs/decoder_only_lora/002__decoder_only__model_name-flan-t5-base__batch_size-8__learning_rate-5e-05__epochs-10/checkpoints",
+    "adapter_dir": "/home1/tzhang44/CSCI544-NLP-Coursework-master/results/hpc_runs/decoder_only_lora/002__decoder_only__model_name-flan-t5-base__batch_size-8__learning_rate-5e-05__epochs-10/checkpoints/best_decoder_lora",
+    "predictions_csv": "/home1/tzhang44/CSCI544-NLP-Coursework-master/results/hpc_runs/decoder_only_lora/002__decoder_only__model_name-flan-t5-base__batch_size-8__learning_rate-5e-05__epochs-10/predictions/predictions.csv",
+    "paragen_evaluation_json": "/home1/tzhang44/CSCI544-NLP-Coursework-master/results/hpc_runs/decoder_only_lora/002__decoder_only__model_name-flan-t5-base__batch_size-8__learning_rate-5e-05__epochs-10/predictions/paragen_evaluation.json",
+    "metrics": {
+      "num_samples": 925,
+      "mean_bleu_vs_reference": 0.4524618443605495,
+      "mean_rougeL_f1_vs_reference": 0.803170122067304,
+      "mean_lexical_diversity_vs_source": 0.27406291712952563,
+      "mean_inverse_bleu_vs_source": 0.36356709230403084,
+      "mean_length_ratio_vs_reference": 0.9766011400777806
+    }
+  }
+}

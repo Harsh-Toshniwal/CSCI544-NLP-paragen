@@ -1,0 +1,28 @@
+{
+  "mode": "qwen_decoder_lora",
+  "combo_index": 4,
+  "run_group": "qwen_decoder_lora",
+  "run_name": "004__qwen_decoder_lora__model_name-qwen-qwen2.5-3b-instruct__batch_size-1__learning_rate-3e-05__epochs-5__gradient_accumulation_steps-16__lora_r-16__lora_alpha-32",
+  "device": "cuda",
+  "prediction_subdir": "predictions_label0",
+  "combo": {
+    "device": "cuda",
+    "train_file": "data/classification_splits/train.csv",
+    "val_file": "data/classification_splits/val.csv",
+    "test_file": "data/classification_splits/test_label0.csv",
+    "positive_only": false,
+    "max_length": 512,
+    "max_new_tokens": 96,
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "seed": 42,
+    "model_name": "Qwen/Qwen2.5-3B-Instruct",
+    "batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "learning_rate": 3e-05,
+    "epochs": 5,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05
+  }
+}

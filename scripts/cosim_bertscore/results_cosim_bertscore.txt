@@ -1,0 +1,83 @@
+Overall similarity stats:
+count    1000.0000
+mean        0.9684
+std         0.0407
+min         0.6780
+25%         0.9636
+50%         0.9823
+75%         0.9924
+max         1.0000
+
+Mean similarity by label:
+label
+0    0.9631
+1    0.9737
+
+Quality flag distribution:
+quality_flag
+strong      973
+moderate     24
+drift         3
+
+Saved summary tables:
+  balanced_label_no_lowercase\cosine_similarity_summary_by_label.tsv
+  balanced_label_no_lowercase\cosine_similarity_summary_overall.tsv
+
+Label-wise summary table:
+split  label  count  mean_cossim  std_cossim  min_cossim  max_cossim
+train      0   3997       0.9605      0.0473      0.4961      0.9997
+train      1   3989       0.9733      0.0397      0.5308      1.0000
+  dev      0    500       0.9608      0.0455      0.6362      0.9994
+  dev      1    498       0.9778      0.0337      0.7609      0.9999
+ test      0    500       0.9631      0.0426      0.6780      0.9996
+ test      1    500       0.9737      0.0380      0.6833      1.0000
+
+Overall split summary table:
+split  count  mean_cossim  std_cossim  min_cossim  max_cossim
+train   7986       0.9669      0.0441      0.4961      1.0000
+  dev    998       0.9693      0.0409      0.6362      0.9999
+ test   1000       0.9684      0.0407      0.6780      1.0000
+
+
+
+-------------------------------------------------------BERTScore F1------------------------------------------------------------
+
+Overall BERTScore F1 stats:
+count    1000.0000
+mean        0.9112
+std         0.0555
+min         0.5190
+25%         0.8836
+50%         0.9187
+75%         0.9514
+max         1.0000
+
+Mean BERTScore F1 by label:
+label
+0    0.8978
+1    0.9246
+
+Quality flag distribution:
+quality_flag
+strong      656
+moderate    301
+drift        43
+
+Saved summary tables:
+  balanced_label_no_lowercase\bertscore_summary_by_label.tsv
+  balanced_label_no_lowercase\bertscore_summary_overall.tsv
+
+Label-wise summary table:
+split  label  count  mean_bertscore_f1  standard_deviation  min_bertscore_f1  max_bertscore_f1
+train      0   3997             0.8944              0.0545            0.5679            0.9938
+train      1   3989             0.9249              0.0474            0.6368            1.0000
+  dev      0    500             0.8926              0.0531            0.6056            0.9903
+  dev      1    498             0.9276              0.0455            0.7388            0.9949
+ test      0    500             0.8978              0.0551            0.5190            0.9941
+ test      1    500             0.9246              0.0526            0.6250            1.0000
+
+Overall split summary table:
+split  count  mean_bertscore_f1  standard_deviation  min_bertscore_f1  max_bertscore_f1
+train   7986             0.9097              0.0533            0.5679            1.0000
+  dev    998             0.9100              0.0525            0.6056            0.9949
+ test   1000             0.9112              0.0555            0.5190            1.0000

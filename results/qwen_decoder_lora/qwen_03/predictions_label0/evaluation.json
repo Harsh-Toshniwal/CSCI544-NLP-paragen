@@ -1,0 +1,8 @@
+{
+  "num_samples": 1303,
+  "mean_bleu_vs_reference": 0.4602572181268001,
+  "mean_rougeL_f1_vs_reference": 0.7021142235750263,
+  "mean_lexical_diversity_vs_source": 0.11118386517483496,
+  "mean_inverse_bleu_vs_source": 0.2819305782978696,
+  "mean_length_ratio_vs_reference": 1.005696302617515
+}

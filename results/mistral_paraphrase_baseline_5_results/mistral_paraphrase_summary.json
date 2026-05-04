@@ -1,0 +1,127 @@
+{
+  "num_samples": 5,
+  "summary": {
+    "bleu_vs_reference_mean": 0.08224904718490607,
+    "bleu_vs_reference_std": 0.08448236785364889,
+    "bleu_vs_reference_median": 0.05407093563743677,
+    "rougeL_f1_vs_reference_mean": 0.44148589024726537,
+    "rougeL_f1_vs_reference_std": 0.16596440459831258,
+    "rougeL_f1_vs_reference_median": 0.375,
+    "lexical_diversity_vs_reference_mean": 0.7078706800445931,
+    "lexical_diversity_vs_reference_std": 0.11190357241019375,
+    "lexical_diversity_vs_reference_median": 0.6666666666666667,
+    "inverse_bleu_vs_reference_mean": 0.9177509528150939,
+    "inverse_bleu_vs_reference_std": 0.08448236785364889,
+    "inverse_bleu_vs_reference_median": 0.9459290643625632,
+    "length_ratio_vs_reference_mean": 0.9503461538461538,
+    "length_ratio_vs_reference_std": 0.10122565453527417,
+    "length_ratio_vs_reference_median": 1.0,
+    "semantic_similarity_vs_reference_mean": 0.8486992716789246,
+    "semantic_similarity_vs_reference_std": 0.08952978848070635,
+    "semantic_similarity_vs_reference_median": 0.8890352845191956,
+    "bleu_vs_source_mean": 0.14358551371472564,
+    "bleu_vs_source_std": 0.16434797451859112,
+    "bleu_vs_source_median": 0.02820379976214314,
+    "rougeL_f1_vs_source_mean": 0.47205750054114315,
+    "rougeL_f1_vs_source_std": 0.1415949973081641,
+    "rougeL_f1_vs_source_median": 0.39999999999999997,
+    "lexical_diversity_vs_source_mean": 0.7154213783796362,
+    "lexical_diversity_vs_source_std": 0.10093086583807627,
+    "lexical_diversity_vs_source_median": 0.7241379310344828,
+    "inverse_bleu_vs_source_mean": 0.8564144862852743,
+    "inverse_bleu_vs_source_std": 0.16434797451859112,
+    "inverse_bleu_vs_source_median": 0.9717962002378568,
+    "length_ratio_vs_source_mean": 0.9789242424242424,
+    "length_ratio_vs_source_std": 0.10449485380626476,
+    "length_ratio_vs_source_median": 1.0454545454545454,
+    "semantic_similarity_vs_source_mean": 0.8658391118049622,
+    "semantic_similarity_vs_source_std": 0.08624531827371311,
+    "semantic_similarity_vs_source_median": 0.9095553159713745
+  },
+  "detailed_scores": {
+    "bleu_vs_reference": [
+      0.05407093563743677,
+      0.24078435074822624,
+      0.011882918629717543,
+      0.01347176685368912,
+      0.09103526405546068
+    ],
+    "rougeL_f1_vs_reference": [
+      0.5217391304347826,
+      0.7272727272727272,
+      0.30434782608695654,
+      0.2790697674418604,
+      0.375
+    ],
+    "lexical_diversity_vs_reference": [
+      0.6666666666666667,
+      0.6521739130434783,
+      0.85,
+      0.8205128205128205,
+      0.55
+    ],
+    "inverse_bleu_vs_reference": [
+      0.9459290643625632,
+      0.7592156492517738,
+      0.9881170813702824,
+      0.9865282331463109,
+      0.9089647359445393
+    ],
+    "length_ratio_vs_reference": [
+      0.7692307692307693,
+      1.0625,
+      0.92,
+      1.0,
+      1.0
+    ],
+    "semantic_similarity_vs_reference": [
+      0.8901466131210327,
+      0.9712278842926025,
+      0.7671356201171875,
+      0.7259509563446045,
+      0.8890352845191956
+    ],
+    "bleu_vs_source": [
+      0.02820379976214314,
+      0.24078435074822624,
+      0.012349797048511867,
+      0.01347176685368912,
+      0.42311785416105785
+    ],
+    "rougeL_f1_vs_source": [
+      0.39999999999999997,
+      0.7272727272727272,
+      0.391304347826087,
+      0.3255813953488372,
+      0.5161290322580646
+    ],
+    "lexical_diversity_vs_source": [
+      0.7241379310344828,
+      0.6666666666666667,
+      0.8205128205128205,
+      0.8157894736842105,
+      0.55
+    ],
+    "inverse_bleu_vs_source": [
+      0.9717962002378568,
+      0.7592156492517738,
+      0.9876502029514881,
+      0.9865282331463109,
+      0.5768821458389422
+    ],
+    "length_ratio_vs_source": [
+      0.8,
+      1.0625,
+      0.92,
+      1.0454545454545454,
+      1.0666666666666667
+    ],
+    "semantic_similarity_vs_source": [
+      0.9095553159713745,
+      0.9715534448623657,
+      0.7930254340171814,
+      0.7384583950042725,
+      0.9166029691696167
+    ]
+  }
+}

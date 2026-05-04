@@ -1,0 +1,84 @@
+{
+  "CREATIVE|SAME": [
+    {
+      "source": "Kristoffer had eight known children together with Karen",
+      "target": "Together  Karen and Kristoffer have eight children",
+      "style_label": "CREATIVE",
+      "length_label": "SAME",
+      "token_overlap_ratio": 0.5,
+      "length_ratio": 0.875
+    },
+    {
+      "source": "For the first time  Stephen Hendry won the title and defeated Peter Ebdon 9-8 in the final",
+      "target": "Stephen Hendry won the title for the first time  beating Peter Ebdon 9 - 8 in the final",
+      "style_label": "CREATIVE",
+      "length_label": "SAME",
+      "token_overlap_ratio": 0.631578947368421,
+      "length_ratio": 1.0588235294117647
+    },
+    {
+      "source": "Karen and Kristoffer together have eight children",
+      "target": "Together with Karen  Kristoffer had eight children",
+      "style_label": "CREATIVE",
+      "length_label": "SAME",
+      "token_overlap_ratio": 0.5555555555555556,
+      "length_ratio": 1.0
+    }
+  ],
+  "CONSERVATIVE|LONG": [
+    {
+      "source": "His elder siblings were Patricia Lou ( 1925 born   Travis ( 1927-2016  and Larry ( 1929-2008",
+      "target": "His elder siblings were Patricia Lou ( born in 1925   Travis ( 1927 - 2016   and Larry ( 1929 - 2008",
+      "style_label": "CONSERVATIVE",
+      "length_label": "LONG",
+      "token_overlap_ratio": 0.6,
+      "length_ratio": 1.3125
+    }
+  ],
+  "CREATIVE|LONG": [
+    {
+      "source": "Hlynur is by nature defensive  but harmless",
+      "target": "The Hlynur is defensive by nature  but harmless. \"",
+      "style_label": "CREATIVE",
+      "length_label": "LONG",
+      "token_overlap_ratio": 0.6,
+      "length_ratio": 1.2857142857142858
+    }
+  ],
+  "CONSERVATIVE|SAME": [
+    {
+      "source": "Together with Karen  Kristoffer had eight children",
+      "target": "Together  Karen and Kristoffer have eight children",
+      "style_label": "CONSERVATIVE",
+      "length_label": "SAME",
+      "token_overlap_ratio": 0.5555555555555556,
+      "length_ratio": 1.0
+    },
+    {
+      "source": "He quickly served in the U  \u0002. Navy and enlisted from 1942 - 1943",
+      "target": "He served quickly in the U  \u0002. Navy and joined from 1942-1943",
+      "style_label": "CONSERVATIVE",
+      "length_label": "SAME",
+      "token_overlap_ratio": 0.625,
+      "length_ratio": 0.8571428571428571
+    },
+    {
+      "source": "The reigning monarch is given if the date is not known more precisely. \"",
+      "target": "The ruling monarch is given if the date is not more precisely known",
+      "style_label": "CONSERVATIVE",
+      "length_label": "SAME",
+      "token_overlap_ratio": 0.6428571428571429,
+      "length_ratio": 0.9285714285714286
+    }
+  ],
+  "CREATIVE|SHORT": [
+    {
+      "source": "Ruth Stuber married Armand L. Jeanne ( b  1941",
+      "target": "Armand Jeanne married Ruth Stuber in 1941",
+      "style_label": "CREATIVE",
+      "length_label": "SHORT",
+      "token_overlap_ratio": 0.6,
+      "length_ratio": 0.7777777777777778
+    }
+  ]
+}

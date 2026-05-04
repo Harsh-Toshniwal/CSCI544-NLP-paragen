@@ -1,0 +1,5 @@
+sentence1,sentence2,gold_label
+How can I learn Python fast?,What is the quickest way to learn Python?,1
+The company reported a profit.,The company reported a loss.,0
+He went to the store.,He visited the shop.,1
+She loves reading books.,She hates reading books.,0

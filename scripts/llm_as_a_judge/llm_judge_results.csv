@@ -1,0 +1,5 @@
+sentence1,sentence2,gold_label,llm_semantic_equivalence,llm_fluency,llm_diversity,llm_justification
+How can I learn Python fast?,What is the quickest way to learn Python?,1,5,5,4,"The paraphrase maintains the original meaning of seeking a fast method to learn Python, is grammatically correct and natural, and shows meaningful rephrasing with some variation in wording."
+The company reported a profit.,The company reported a loss.,0,1,5,5,"The paraphrase conveys a completely opposite meaning by stating a loss instead of a profit, which is a major change. However, it is fluent and well-structured."
+He went to the store.,He visited the shop.,1,5,5,4,"The paraphrase maintains the same meaning as the source sentence, using different words ('visited' instead of 'went' and 'shop' instead of 'store'), while remaining fluent and grammatically correct. The variation is meaningful but not overly distinct."
+She loves reading books.,She hates reading books.,0,1,5,5,"The paraphrase completely changes the meaning from love to hate, resulting in a completely different sentiment. However, the sentence is fluent and grammatically correct, and it shows strong variation in wording."

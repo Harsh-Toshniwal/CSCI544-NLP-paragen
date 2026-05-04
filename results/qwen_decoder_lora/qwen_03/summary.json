@@ -1,0 +1,43 @@
+{
+  "mode": "qwen_decoder_lora",
+  "combo_index": 3,
+  "run_group": "qwen_decoder_lora",
+  "run_name": "003__qwen_decoder_lora__model_name-qwen-qwen2.5-3b-instruct__batch_size-1__learning_rate-5e-05__epochs-4__gradient_accumulation_steps-16__lora_r-8__lora_alpha-16",
+  "device": "cuda",
+  "prediction_subdir": "predictions_label0",
+  "combo": {
+    "device": "cuda",
+    "train_file": "data/classification_splits/train.csv",
+    "val_file": "data/classification_splits/val.csv",
+    "test_file": "data/classification_splits/test_label0.csv",
+    "positive_only": false,
+    "max_length": 512,
+    "max_new_tokens": 96,
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "seed": 42,
+    "model_name": "Qwen/Qwen2.5-3B-Instruct",
+    "batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "learning_rate": 5e-05,
+    "epochs": 4,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05
+  },
+  "status": "completed",
+  "artifacts": {
+    "checkpoint_dir": "/home1/tzhang44/CSCI544-NLP-Coursework-master/results/hpc_runs/qwen_decoder_lora/003__qwen_decoder_lora__model_name-qwen-qwen2.5-3b-instruct__batch_size-1__learning_rate-5e-05__epochs-4__gradient_accumulation_steps-16__lora_r-8__lora_alpha-16/checkpoints",
+    "adapter_dir": "/home1/tzhang44/CSCI544-NLP-Coursework-master/results/hpc_runs/qwen_decoder_lora/003__qwen_decoder_lora__model_name-qwen-qwen2.5-3b-instruct__batch_size-1__learning_rate-5e-05__epochs-4__gradient_accumulation_steps-16__lora_r-8__lora_alpha-16/checkpoints/best_qwen_decoder_lora",
+    "predictions_csv": "/home1/tzhang44/CSCI544-NLP-Coursework-master/results/hpc_runs/qwen_decoder_lora/003__qwen_decoder_lora__model_name-qwen-qwen2.5-3b-instruct__batch_size-1__learning_rate-5e-05__epochs-4__gradient_accumulation_steps-16__lora_r-8__lora_alpha-16/predictions_label0/predictions.csv",
+    "paragen_evaluation_json": "/home1/tzhang44/CSCI544-NLP-Coursework-master/results/hpc_runs/qwen_decoder_lora/003__qwen_decoder_lora__model_name-qwen-qwen2.5-3b-instruct__batch_size-1__learning_rate-5e-05__epochs-4__gradient_accumulation_steps-16__lora_r-8__lora_alpha-16/predictions_label0/paragen_evaluation.json",
+    "metrics": {
+      "num_samples": 1303,
+      "mean_bleu_vs_reference": 0.4602572181268001,
+      "mean_rougeL_f1_vs_reference": 0.7021142235750263,
+      "mean_lexical_diversity_vs_source": 0.11118386517483496,
+      "mean_inverse_bleu_vs_source": 0.2819305782978696,
+      "mean_length_ratio_vs_reference": 1.005696302617515
+    }
+  }
+}
